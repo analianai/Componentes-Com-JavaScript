@@ -7,7 +7,8 @@ A componentização envolve a divisão de um bloco de código ou estrutura em v�
 ````diff
 /Sistema 
 │-- /componentes
-│ └── menu.html # Arquivo que contém o código HTML do menu 
+│── menu.html # Arquivo que contém o código HTML do menu
+│── footer.html # Arquivo que contém o código HTML do rodapé
 │-- /js │ 
 └── includes.js # Script que carrega o menu e o footer nas páginas 
 │-- index.html # Página inicial 
@@ -28,9 +29,9 @@ O menu e o footer são carregado dinamicamente através do JavaScript em cada p�
 
 1. Clone este repositório para o seu ambiente local:
 
-   ```bash
-   git clone https://github.com/analianai/Componentes-Com-JavaScript
-   ````
+```bash
+ git clone https://github.com/analianai/Exemplo-componentiza-o-Com-JavaScript.git
+````
 
 ### Explicação do conteúdo:
 
