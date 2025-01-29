@@ -1,9 +1,10 @@
-# Componentes para paginas HTML
+# Componentização para paginas HTML com JavaScript
 
-Este projeto tem como objetivo demonstrar como criar um menu, footer e qualquel componente reutilizável em várias páginas de um site, utilizando JavaScript para carregar o conteúdo do menu dinamicamente. Isso permite centralizar a manutenção do menu em um único arquivo e reutilizá-lo facilmente em diferentes páginas.
+A componentização envolve a divisão de um bloco de código ou estrutura em vários mini sistemas, transformando-os em componentes completos. Por exemplo, ao separar uma tela, identificamos o que pode se tornar um componente e o que não pode. É evidente que a maior parte do código pode ser componentizada. Esse processo reduz a complexidade do script, além de facilitar a sua manutenção e reutilização. Assim, este projeto tem como objetivo demonstrar como criar um menu, footer e qualquel componente reutilizável em várias páginas de um site, utilizando JavaScript para carregar o conteúdo do menu dinamicamente. Isso permite centralizar a manutenção do menu em um único arquivo e reutilizá-lo facilmente em diferentes páginas.
 
 ## Estrutura do Projeto
 
+````diff
 /Sistema 
 │-- /componentes
 │ └── menu.html # Arquivo que contém o código HTML do menu 
@@ -11,6 +12,7 @@ Este projeto tem como objetivo demonstrar como criar um menu, footer e qualquel 
 └── includes.js # Script que carrega o menu e o footer nas páginas 
 │-- index.html # Página inicial 
 │-- Sobre.html # Página de Sobre
+````
 
 ## Funcionalidade
 
@@ -29,8 +31,6 @@ O menu e o footer são carregado dinamicamente através do JavaScript em cada p�
    ```bash
    git clone https://github.com/analianai/Componentes-Com-JavaScript
    ````
-
----
 
 ### Explicação do conteúdo:
 
