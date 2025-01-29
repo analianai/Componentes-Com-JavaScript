@@ -9,10 +9,10 @@ A componentização envolve a divisão de um bloco de código ou estrutura em v�
 │-- /componentes
 │── menu.html # Arquivo que contém o código HTML do menu
 │── footer.html # Arquivo que contém o código HTML do rodapé
-│-- /js │ 
-└── includes.js # Script que carrega o menu e o footer nas páginas 
+│-- -- /js
+│-- includes.js # Script que carrega o menu e o footer nas páginas 
 │-- index.html # Página inicial 
-│-- Sobre.html # Página de Sobre
+└── Sobre.html # Página de Sobre
 ````
 
 ## Funcionalidade
